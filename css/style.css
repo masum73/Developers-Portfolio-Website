@@ -21,7 +21,7 @@
 }
 
 /* Header and nav style */
-.header{
+.header {
     background: #FFF8F3;
     background-image: url('../assets/images/header_bg.png'), url('../assets/images/developer.png');
     background-repeat: no-repeat;
@@ -50,11 +50,12 @@ nav li {
 }
 
 /* Banner styles */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     margin: 0px 200px;
 }
+
 .banner-sub-title {
     font-weight: 600;
     font-size: 45px;
@@ -74,7 +75,8 @@ nav li {
     color: #757575;
     margin-bottom: 30px;
 }
-.btn-secondary{
+
+.btn-secondary {
     font-weight: 700;
     font-size: 20px;
     border: 0;
@@ -82,7 +84,55 @@ nav li {
     color: #FD6E0A;
     height: 64px;
     border-radius: 5px;
-    background:none;
+    background: none;
     border: 1px solid #FD6E0A;
     margin-left: 30px;
+}
+
+/* main */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section styles */
+
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* about me style */
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.about .info-title{
+    font-size: 20px;
+    color:#757575;
+}
+
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 }
